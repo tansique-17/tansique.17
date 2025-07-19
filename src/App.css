@@ -1363,7 +1363,8 @@ body::before {
 
 .modal-footer {
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap; /* allow items to wrap */
+  justify-content: space-between; /* better balance */
   gap: var(--spacing-md);
   padding: var(--spacing-lg);
   border-top: 1px solid var(--border-color);
@@ -1405,6 +1406,15 @@ body::before {
   
   .modal-footer {
     flex-direction: column;
+    justify-content: center;
+    align-items: center; /* centers items horizontally */
+    text-align: center;
+    gap: var(--spacing-sm); /* spacing between buttons */
+  }
+
+  .modal-footer > * {
+    width: 100%; /* ensures full width buttons on mobile */
+    max-width: 300px; /* optional: avoids buttons stretching too much */
   }
   
   .detail-item {
