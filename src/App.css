@@ -1403,6 +1403,9 @@ body::before {
   .modal-title {
     font-size: 1.2rem;
   }
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
   
   .modal-footer {
     flex-direction: column;
