@@ -212,7 +212,7 @@ const mockData = {
      {
       "CertificatePic": "assets/Certificates/Internship/mastercard.png",
       "CertificatePdf": "assets/Certificates/Internship/mastercard.pdf",
-      "CertificateName": "Master Card - Cybersecurity Job Simulation",
+      "CertificateName": "Tata - Cybersecurity Job Simulation",
       "IssuedCompany": "Forage",
       "Category": "Internship Certificate"
     },
@@ -241,7 +241,7 @@ const mockData = {
     {
       "CertificatePic": "assets/Certificates/Internship/tcs.png",
       "CertificatePdf": "assets/Certificates/Internship/tcs.pdf",
-      "CertificateName": "Tata - Cybersecurity Analyst Job Simulation",
+      "CertificateName": "Master Card- Cybersecurity Analyst Job Simulation",
       "IssuedCompany": "Forage",
       "Category": "Internship Certificate"
     },
