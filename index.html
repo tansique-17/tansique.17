@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex CyberSec - Cybersecurity Portfolio</title>
+    <meta name="description" content="Professional cybersecurity portfolio showcasing penetration testing, ethical hacking, and security research expertise.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Alex CyberSec - Cybersecurity Portfolio">
+    <meta property="og:description" content="Professional cybersecurity portfolio showcasing penetration testing, ethical hacking, and security research expertise.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alex CyberSec - Cybersecurity Portfolio">
+    <meta name="twitter:description" content="Professional cybersecurity portfolio showcasing penetration testing, ethical hacking, and security research expertise.">
+    <meta name="twitter:image" content="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#00ff41">
+    
+    <!-- Viewport Meta for Mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    
+    <style>
+        /* Critical CSS for initial load */
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #00ff41;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            overflow-x: hidden;
+        }
+        
+        /* Loading spinner */
+        .loading-spinner {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(0, 255, 65, 0.3);
+            border-top: 3px solid #00ff41;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            z-index: 9999;
+        }
+        
+        @keyframes spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+        
+        /* Hide content until React loads */
+        #root:empty::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            z-index: 9998;
+        }
+    </style>
+</head>
+<body data-theme="dark">
+    <div id="root">
+        <!-- Loading spinner shown until React loads -->
+        <div class="loading-spinner"></div>
+    </div>
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alex CyberSec",
+        "jobTitle": "Cybersecurity Expert",
+        "description": "Ethical Hacker & Penetration Testing Specialist",
+        "url": "https://alexcybersec.com",
+        "sameAs": [
+            "https://linkedin.com/in/alexcybersec",
+            "https://github.com/alexcybersec",
+            "https://twitter.com/alexcybersec"
+        ],
+        "knowsAbout": [
+            "Cybersecurity",
+            "Penetration Testing",
+            "Ethical Hacking",
+            "Web Application Security",
+            "Network Security",
+            "Python Programming"
+        ]
+    }
+    </script>
+    
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
