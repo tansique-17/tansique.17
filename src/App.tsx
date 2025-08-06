@@ -656,6 +656,13 @@ const handleThemeToggle = () => {
             <i className="fas fa-bug mr-2"></i>
             CVE-2025-26199
           </button>
+          <button
+            className="btn btn-outline"
+            onClick={() => window.open('https://www.cve.org/CVERecord?id=CVE-2025-51411', '_blank')}
+          >
+            <i className="fas fa-bug mr-2"></i>
+            CVE-2025-51411
+          </button>
         </div>
       </div>
     </div>
