@@ -663,6 +663,27 @@ const handleThemeToggle = () => {
             <i className="fas fa-bug mr-2"></i>
             CVE-2025-51411
           </button>
+           <button
+            className="btn btn-outline"
+            onClick={() => window.open('https://www.cve.org/CVERecord?id=CVE-2025-61454', '_blank')}
+          >
+            <i className="fas fa-bug mr-2"></i>
+            CVE-2025-61454
+          </button>
+          <button
+            className="btn btn-outline"
+            onClick={() => window.open('https://www.cve.org/CVERecord?id=CVE-2025-61455', '_blank')}
+          >
+            <i className="fas fa-bug mr-2"></i>
+            CVE-2025-614545
+          </button>
+          <button
+            className="btn btn-outline"
+            onClick={() => window.open('https://www.cve.org/CVERecord?id=CVE-2025-61456', '_blank')}
+          >
+            <i className="fas fa-bug mr-2"></i>
+            CVE-2025-61456
+          </button>         
         </div>
       </div>
     </div>
